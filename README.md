@@ -8,7 +8,7 @@ _All Windows images are build for 2004 Windows Kernel :) for that i only use Nan
 *   PostgreSQL EDB 12.4-1 PostGis 3.0.2  
     `docker build --tag postgres-12.4-1-postgis --build-arg WIN_VER=2004 --build-arg EDB_VER=12.4-1 .`  
     `docker run --isolation-process -d postgres-12.4-1-postgis`
-*   Geoserver 2.18.0  
+*   Geoserver 2.18.0 JRE 11.0.8  
     `docker build --tag geoserver .`  
     `docker run --isolation-process -d geoserver`
 
@@ -21,3 +21,7 @@ docker-compose.exe -f .\docker-compose-windows.yml up -d
 SWITCH TO LINUX
 docker-compose.exe -f .\docker-compose-linux.yml up -d
 ```
+
+## LogNonReceiver
+
+For this project, i only used .net core with VISUAL STUDIO Kubernetes Extensions and pushed my containerized code to Docker Hub.
