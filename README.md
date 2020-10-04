@@ -1,4 +1,4 @@
-_All Windows images are build for 2004 Windows Kernel :) for that i only use Nanoserver2004 with limited layers_ 
+_All Windows images are build for 2004 Windows Kernel :) for that i only use Nanoserver2004 with limited layers_
 
 [_My Docker Hub Repo_](https://hub.docker.com/u/yop038)
 
@@ -27,3 +27,9 @@ docker-compose.exe -f .\docker-compose-linux.yml up -d
 ## LogNonReceiver
 
 For this project, i only used .net core with VISUAL STUDIO Kubernetes Extensions and pushed my containerized code to Docker Hub.
+
+![](https://user-images.githubusercontent.com/47157011/95011085-82f09800-062e-11eb-8e9a-23b71ce5aef9.png)
+
+![](https://user-images.githubusercontent.com/47157011/95011090-8e43c380-062e-11eb-953a-ebc65f0279c9.png)
+
+![](https://user-images.githubusercontent.com/47157011/95011092-93a10e00-062e-11eb-9f0b-973d093ae8de.png)
