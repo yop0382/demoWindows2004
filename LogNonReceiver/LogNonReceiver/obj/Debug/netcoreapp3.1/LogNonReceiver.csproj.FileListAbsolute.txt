@@ -1,0 +1,13 @@
+C:\Users\yop\source\repos\LogNonReceiver\LogNonReceiver\bin\Debug\netcoreapp3.1\LogNonReceiver.exe
+C:\Users\yop\source\repos\LogNonReceiver\LogNonReceiver\bin\Debug\netcoreapp3.1\LogNonReceiver.deps.json
+C:\Users\yop\source\repos\LogNonReceiver\LogNonReceiver\bin\Debug\netcoreapp3.1\LogNonReceiver.runtimeconfig.json
+C:\Users\yop\source\repos\LogNonReceiver\LogNonReceiver\bin\Debug\netcoreapp3.1\LogNonReceiver.runtimeconfig.dev.json
+C:\Users\yop\source\repos\LogNonReceiver\LogNonReceiver\bin\Debug\netcoreapp3.1\LogNonReceiver.dll
+C:\Users\yop\source\repos\LogNonReceiver\LogNonReceiver\bin\Debug\netcoreapp3.1\LogNonReceiver.pdb
+C:\Users\yop\source\repos\LogNonReceiver\LogNonReceiver\obj\Debug\netcoreapp3.1\LogNonReceiver.csprojAssemblyReference.cache
+C:\Users\yop\source\repos\LogNonReceiver\LogNonReceiver\obj\Debug\netcoreapp3.1\LogNonReceiver.AssemblyInfoInputs.cache
+C:\Users\yop\source\repos\LogNonReceiver\LogNonReceiver\obj\Debug\netcoreapp3.1\LogNonReceiver.AssemblyInfo.cs
+C:\Users\yop\source\repos\LogNonReceiver\LogNonReceiver\obj\Debug\netcoreapp3.1\LogNonReceiver.dll
+C:\Users\yop\source\repos\LogNonReceiver\LogNonReceiver\obj\Debug\netcoreapp3.1\LogNonReceiver.pdb
+C:\Users\yop\source\repos\LogNonReceiver\LogNonReceiver\obj\Debug\netcoreapp3.1\LogNonReceiver.genruntimeconfig.cache
+C:\Users\yop\source\repos\LogNonReceiver\LogNonReceiver\obj\Debug\netcoreapp3.1\LogNonReceiver.csproj.CoreCompileInputs.cache
