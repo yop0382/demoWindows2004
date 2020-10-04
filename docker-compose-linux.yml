@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+
+   easI:
+    image: yop038/apache2-php7
+    container_name: easI
+    platform: linux
+    ports:
+      - 80:80
+    volumes:
+      - /var/www:/var/www
+      - ./config/php.ini:/etc/php/7.2/apache2/conf.d/30-custom.ini
+      - ./config/fqdn:/etc/apache2/conf.d/fqdn
+      - ./sites:/etc/apache2/sites-enabled/

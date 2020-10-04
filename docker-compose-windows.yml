@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+   lognonreceiver:
+    image: yop038/lognonreceiver
+    container_name: lognonreceiver
+    platform: windows
+    depends_on:
+      - postgres
+
+   geoserver:
+    image: yop038/geoserver-windows:jdk11.08-gs2.18.0-nanoserver-2004
+    container_name: geoserver
+    platform: windows
+    
+   postgres:
+    image: yop038/postgres-windows:pg12.4-1-postgis-nanoserver-2004
+    container_name: postgres
+    platform: windows
+    
+   rabbitmq:
+    image: yop038/rabbitmq-server-windows:erl22.3-rbmq3.8.9-nanoserver-2004
+    container_name: rabbitmq
+    platform: windows
