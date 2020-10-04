@@ -4,6 +4,7 @@ services:
     image: yop038/lognonreceiver
     container_name: lognonreceiver
     platform: windows
+    isolation: process
     depends_on:
       - postgres
 
@@ -11,13 +12,16 @@ services:
     image: yop038/geoserver-windows:jdk11.08-gs2.18.0-nanoserver-2004
     container_name: geoserver
     platform: windows
+    isolation: process
     
    postgres:
     image: yop038/postgres-windows:pg12.4-1-postgis-nanoserver-2004
     container_name: postgres
     platform: windows
+    isolation: process
     
    rabbitmq:
     image: yop038/rabbitmq-server-windows:erl22.3-rbmq3.8.9-nanoserver-2004
     container_name: rabbitmq
     platform: windows
+    isolation: process
